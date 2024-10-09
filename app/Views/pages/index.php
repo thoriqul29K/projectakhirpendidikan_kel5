@@ -1,11 +1,11 @@
     <div class="wrapper">
         <!-- untuk home -->
         <section id="home">
-            <img src="https://img.freepik.com/free-vector/hand-drawn-college-entrance-exam-illustration_23-2150359350.jpg?size=626&ext=jpg&ga=GA1.1.1308090139.1701668354&semt=sph" alt="Musim">
+            <img src="<?= base_url('assets/images/foto-depan.jpg') ?>" alt="Musim" width="500" height="300">
             <div class="kolom">
                 <p class="deskripsi">Mengenal Website pendidikan</p>
                 <h2>Apa saja informasi yang bisa dicari?</h2>
-                <p>Di website ini, anda bisa melihat daftar pelajaran, materi pembelajaran, daftar kehadiran dan izin secara online, rapot untuk setiap semester, dan mengirim saran/kritik!</p>
+                <p>Di website ini, anda bisa melihat daftar pelajaran, materi pembelajaran, daftar kehadiran dan izin secara online, kuis, dan mengirim saran/kritik!</p>
                 <p><a href="#Developer" class="tbl-pink">Pelajari lebih lanjut</a></p>
             </div>
         </section>
@@ -66,9 +66,9 @@
         <section id="Materi">
             <div class="tengah">
                 <div class="kolom">
-                    <p class="deskripsi">Work in progress</p>
-                    <h2>Sedang dikerjakan</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi accusamus aspernatur officia deleniti illo officiis, nulla voluptatum numquam nobis beatae eos voluptate sapiente quos nostrum vitae, aliquam vero, dolorum corrupti.</p>
+                    <p class="deskripsi">Silahkan tes kemampuan anda!</p>
+                    <h2>Kuis</h2>
+                    <p>Setelah membaca <a href="/">materi</a> diatas, dan ingin mengasah kemampuan anda, silahkan klik tombol dibawah ini</p>
                     <p><a href="/" class="tbl-biru" target="_blank">Klik Disini</a></p>
                 </div>
             </div>

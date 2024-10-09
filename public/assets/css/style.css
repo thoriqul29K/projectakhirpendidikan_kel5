@@ -191,3 +191,9 @@ a.tbl-pink:hover{
     display: inline-block;
     margin-top: 20px;
 }
+
+#home img {
+    display: block;
+    margin: 50px 75px 50px 0; /* Atas 50px, kanan 5px, bawah 50px, kiri 0 */
+}
+
