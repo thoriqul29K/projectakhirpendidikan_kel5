@@ -16,7 +16,7 @@ class Pages extends BaseController
     public function biodata()
     {
         $data = [
-            'title' => 'biodata|WebPendidikan'
+            'title' => 'Biodata|WebPendidikan'
         ];
          echo view('layout/header', $data);
          echo view('pages/biodata');

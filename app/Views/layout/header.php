@@ -13,11 +13,11 @@
             <div class="logo"><a href="">Kelompok 5</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="#Feedback">Feedback</a></li>
                     <li><a href="#Musim">Rapot</a></li>
                     <li><a href="#Materi">Materi</a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=6285960362304">Contact</a></li>
+                    <li><a href="https://wa.me/6281311592415">Contact</a></li>
                     <li><a href="<?= base_url('biodata') ?>" class="tbl-biru">Developer</a></li>
                 </ul>
             </div>
