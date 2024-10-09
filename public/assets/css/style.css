@@ -1,0 +1,193 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans" ,sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    display: flex; /* Menampilkan judul secara sejajar dengan menu */
+    align-items: center; /* Mengatur judul secara vertikal tengah dengan menu */
+    color: #161A30;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* Menyebarkan menu secara merata */
+    align-items: center; /* Mengatur menu secara vertikal tengah */
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: cornsilk;
+    z-index: 1;
+    border-bottom: 1px solid #161A30;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Menampilkan menu secara sejajar */
+    align-items: center; /* Mengatur menu secara vertikal tengah */
+}
+
+
+nav ul li {
+    display: inline-block; /* Mengatur menu secara sejajar */
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic sans ms";
+    color:#161A30;
+}
+
+h2 {
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#161A30;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Ukuran lebar background */
+    height: 30px; /* Ukuran tinggi background */
+    background: #96EFFF;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px 20px 15px 20px;
+    color: #161A30;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #F857B5;
+    text-decoration: none;
+}
+
+a.tbl-pink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; /* Ukuran lebar background */
+    height: 30px; /* Ukuran tinggi background */
+    background: #F857B5;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #161A30;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #96EFFF;
+    text-decoration: none;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+
+.Developer-list {
+    display: flex;
+    justify-content: center; /* Pusatkan kartu-kartu di tengah */
+    flex-wrap: wrap; /* Mengizinkan wrap jika container tidak cukup lebar */
+}
+
+.kartu-Developer {
+    width: 200px; /* Lebar kartu */
+    margin: 10px; /* Jarak antar kartu */
+    text-align: center; /* Pusatkan konten di dalam kartu */
+}
+
+.kartu-Developer img {
+    width: 100%; /* Gambar mengisi lebar kartu */
+    height: auto; /* Tinggi disesuaikan dengan lebar */
+    width: 150px;  /* Atur lebar yang diinginkan */
+    height: 300px; /* Atur tinggi yang diinginkan */
+    border-radius: 10px; /* Sudut bulatkan gambar */
+}
+
+.kartu-Developer p {
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 20px; /* Ukuran font yang lebih kecil */
+    color: #161A30;
+    margin-top: 10px; /* Jarak antara teks dan gambar */
+}
+
+
+#Materi .tengah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#Materi .kolom {
+    text-align: center;
+    font-size: 16px; 
+}
+
+#Materi .tbl-biru {
+    display: inline-block;
+    margin-top: 20px;
+}
