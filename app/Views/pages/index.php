@@ -69,7 +69,7 @@
                     <p class="deskripsi">Silahkan tes kemampuan anda!</p>
                     <h2>Kuis</h2>
                     <p>Setelah membaca <a href="/">materi</a> diatas, dan ingin mengasah kemampuan anda, silahkan klik tombol dibawah ini</p>
-                    <p><a href="/kuis" class="tbl-biru" target="_blank">Klik Disini</a></p>
+                    <p><a href="/kuis" class="tbl-biru">Klik Disini</a></p>
                 </div>
             </div>
         </section>

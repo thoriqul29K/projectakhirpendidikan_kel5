@@ -12,36 +12,67 @@
             padding: 0;
         }
         main {
-            max-width: 800px;
+            max-width: 1200px;
             margin: auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 50px;
         }
+        .profile {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .profile-item {
+            text-align: center;
+            flex: 1;
+            margin: 0 20px;
+        }
         img {
             display: block;
             margin: auto;
             border-radius: 50%;
-            margin-top: 20px;
+            width: 200px;
+            height: 200px;
         }
         p {
             font-size: 18px;
-            text-align: center;
             line-height: 1.6;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <nav>
-        <img src="<?= base_url('assets/images/kilat 1 b copy-1.jpg') ?>" alt="Foto Profil" width="350" height="300">
-    </nav>
     <main>
-        <p>Ini adalah halaman profil saya <br>
-            Nama  : M. Rizki <br>
-            Kelas : 4 MIM <br>
-            No HP : 085960362304
-        </p>
+        <div class="profile">
+            <div class="profile-item">
+                <img src="<?= base_url('assets/images/kilat 1 b copy-1.jpg') ?>" alt="Foto Profil 1">
+                <p>
+                    Nama  : M. Rizki <br>
+                    Kelas : 5 MIM <br>
+                    NIM : 062240833156
+                </p>
+            </div>
+
+            <div class="profile-item">
+                <img src="<?= base_url('assets/images/default_user.jpg') ?>" alt="Foto Profil 2">
+                <p>
+                    Nama  : Muhammad Thoriqul Kirom <br>
+                    Kelas : 5 MIM <br>
+                    NIM : 062240833160
+                </p>
+            </div>
+
+            <div class="profile-item">
+                <img src="<?= base_url('assets/images/default_user.jpg') ?>" alt="Foto Profil 3">
+                <p>
+                    Nama  : Riwandi Apridiansyah <br>
+                    Kelas : 5 MIM <br>
+                    NIM : 062240833165
+                </p>
+            </div>
+        </div>
     </main>
 </body>
+</html>
