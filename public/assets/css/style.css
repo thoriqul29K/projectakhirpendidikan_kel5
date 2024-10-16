@@ -40,7 +40,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: cornsilk;
+    background-color: greenyellow;
     z-index: 1;
     border-bottom: 1px solid #161A30;
 }
@@ -145,20 +145,33 @@ a.tbl-pink:hover{
     width: 100%;
 }
 
+#home img {
+    display: block;
+    margin: 50px 75px 50px 0; /* Atas 50px, kanan 5px, bawah 50px, kiri 0 */
+}
 
-.Developer-list {
+
+#Feedback img {
+    width: 500px; /* Sesuaikan dengan lebar yang diinginkan */
+    height: auto; /* Biarkan tinggi mengikuti proporsi gambar */
+    margin: auto auto auto 75px; /* atas kanan bawah kiri */
+    border-radius: 10px; /* Sudut gambar dibuat melengkung */
+}
+
+
+.Materi-list {
     display: flex;
     justify-content: center; /* Pusatkan kartu-kartu di tengah */
     flex-wrap: wrap; /* Mengizinkan wrap jika container tidak cukup lebar */
 }
 
-.kartu-Developer {
+.kartu-Materi {
     width: 200px; /* Lebar kartu */
     margin: 10px; /* Jarak antar kartu */
     text-align: center; /* Pusatkan konten di dalam kartu */
 }
 
-.kartu-Developer img {
+.kartu-Materi img {
     width: 100%; /* Gambar mengisi lebar kartu */
     height: auto; /* Tinggi disesuaikan dengan lebar */
     width: 150px;  /* Atur lebar yang diinginkan */
@@ -166,7 +179,7 @@ a.tbl-pink:hover{
     border-radius: 10px; /* Sudut bulatkan gambar */
 }
 
-.kartu-Developer p {
+.kartu-Materi p {
     font-family: "comic sans ms";
     font-weight: 800;
     font-size: 20px; /* Ukuran font yang lebih kecil */
@@ -175,25 +188,70 @@ a.tbl-pink:hover{
 }
 
 
-#Materi .tengah {
+#Kuis .tengah {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
-#Materi .kolom {
+#Kuis .kolom {
     text-align: center;
     font-size: 16px; 
 }
 
-#Materi .tbl-biru {
+#Kuis .tbl-biru {
     display: inline-block;
     margin-top: 20px;
 }
 
-#home img {
-    display: block;
-    margin: 50px 75px 50px 0; /* Atas 50px, kanan 5px, bawah 50px, kiri 0 */
+
+/* NOTE!!!!!!! Khusus untuk halaman kuis.php */
+.kuis-wrapper {
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
 }
 
+.kuis-wrapper h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #161A30;
+}
+
+.kuis-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kuis-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.kuis-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.kuis-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A30;
+}
+
+.kuis-card a {
+    color: #F857B5;
+    text-decoration: none;
+}
+
+.kuis-card a:hover {
+    text-decoration: underline;
+}

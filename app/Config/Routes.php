@@ -7,4 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Pages::index');
 $routes->get('/biodata', 'Pages::biodata');
+$routes->get('/kuis', 'Pages::kuis');
 $routes->setAutoRoute(true);

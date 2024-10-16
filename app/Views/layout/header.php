@@ -15,10 +15,10 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="#Feedback">Feedback</a></li>
-                    <li><a href="#Musim">Kuis</a></li>
+                    <li><a href="#Kuis">Kuis</a></li>
                     <li><a href="#Materi">Materi</a></li>
                     <li><a href="https://wa.me/6281311592415">Contact</a></li>
-                    <li><a href="<?= base_url('biodata') ?>" class="tbl-biru">Developer</a></li>
+                    <li><a href="<?= base_url('biodata') ?>" class="tbl-biru">Biodata</a></li>
                 </ul>
             </div>
         </div>

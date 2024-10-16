@@ -11,6 +11,7 @@ class Pages extends BaseController
         ];
         echo view('layout/header', $data);
         echo view('pages/index');
+        echo view('layout/footer');
     }
 
     public function biodata()
@@ -20,5 +21,16 @@ class Pages extends BaseController
         ];
          echo view('layout/header', $data);
          echo view('pages/biodata');
+         echo view('layout/footer');
+    }
+
+    public function kuis()
+    {
+        $data = [
+            'title' => 'Kuis|WebPendidikan'
+        ];
+         echo view('layout/header', $data);
+         echo view('pages/kuis');
+         echo view('layout/footer');
     }
 }
