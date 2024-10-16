@@ -65,7 +65,7 @@
             </div>
 
             <div class="profile-item">
-                <img src="<?= base_url('assets/images/default_user.jpg') ?>" alt="Foto Profil 3">
+                <img src="<?= base_url('assets/images/Riwandi.jpg') ?>" alt="Foto Profil 3">
                 <p>
                     Nama  : Riwandi Apridiansyah <br>
                     Kelas : 5 MIM <br>

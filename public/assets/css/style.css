@@ -255,3 +255,52 @@ a.tbl-pink:hover{
 .kuis-card a:hover {
     text-decoration: underline;
 }
+
+/* NOTE!!!!!!! Khusus untuk halaman materi.php */
+.materi-wrapper {
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.materi-wrapper h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #161A30;
+}
+
+.materi-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.materi-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.materi-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.materi-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A30;
+}
+
+.materi-card a {
+    color: #F857B5;
+    text-decoration: none;
+}
+
+.materi-card a:hover {
+    text-decoration: underline;
+}

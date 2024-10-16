@@ -33,4 +33,14 @@ class Pages extends BaseController
          echo view('pages/kuis');
          echo view('layout/footer');
     }
+
+    public function materi()
+    {
+        $data = [
+            'title' => 'Materi|WebPendidikan'
+        ];
+         echo view('layout/header', $data);
+         echo view('pages/materi');
+         echo view('layout/footer');
+    }
 }

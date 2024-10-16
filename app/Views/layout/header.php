@@ -13,10 +13,10 @@
             <div class="logo"><a href="">Kelompok 5</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href=<?= base_url("/") ?>>Home</a></li>
                     <li><a href="#Feedback">Feedback</a></li>
-                    <li><a href="#Kuis">Kuis</a></li>
-                    <li><a href="#Materi">Materi</a></li>
+                    <li><a href="<?= base_url('/kuis') ?>">Kuis</a></li>
+                    <li><a href=<?= base_url("/materi") ?>>Materi</a></li>
                     <li><a href="https://wa.me/6281311592415" target="_blank">Contact</a></li>
                     <li><a href="<?= base_url('biodata') ?>" class="tbl-biru">Biodata</a></li>
                 </ul>

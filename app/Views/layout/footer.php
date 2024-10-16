@@ -2,7 +2,7 @@
     <div class="footer-content">
         <p>&copy; 2024 Website Kelompok 5. All Rights Reserved. <br> gott mitt uns</p>
         <ul class="footer-links">
-            <li><a href="#">Kembali ke home</a></li>
+            <li><a href="/">Kembali ke home</a></li>
             <li><a href="#">Kontak</a></li>
             <li><a href="#">Tentang Kami</a></li>
         </ul>
