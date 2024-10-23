@@ -1,3 +1,6 @@
+<?= $this->extend('layout/main'); ?>
+
+<?= $this->section('content'); ?>
 <div class="kuis-wrapper">
     <h2>Latihan Kuis</h2>
     <p>Berikut adalah beberapa latihan kuis berdasarkan materi yang telah kalian pelajari.</p>
@@ -25,3 +28,4 @@
         </div>
     </div>
 </div>
+<?= $this->endSection(); ?>

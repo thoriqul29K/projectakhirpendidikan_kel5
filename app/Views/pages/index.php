@@ -1,3 +1,7 @@
+<?= $this->extend('layout/main'); ?>
+
+<?= $this->section('content'); ?>
+
     <div class="wrapper">
         <!-- untuk home -->
         <section id="home">
@@ -13,11 +17,11 @@
 <!-- untuk feedback -->
 <section id="Feedback">
     <div class="kolom">
-        <p class="deskripsi">Lorem ipsum dolor sit amet.</p>
-        <h2>Feedback for us</h2>
+        <p class="deskripsi">Sampaikan umpan balik untuk kami!.</p>
+        <h2>Umpan Balik</h2>
         <p>Kami sangat menghargai masukan Anda! Berikan pendapat anda untuk membantu kami meningkatkan layanan kami</p>
         <p>Kami berkomitmen untuk selalu memberikan yang terbaik. Sampaikan feedback Anda agar kami bisa terus meningkatkan kualitas layanan kami.</p>
-        <p><a href="#" class="tbl-biru">Klik Disini</a></p>
+        <p><a href="<?= base_url('/umpan_balik') ?>" class="tbl-biru">Klik Disini</a></p>
         <p>Terima kasih telah menggunakan layanan kami! Kami ingin mendengar dari Anda untuk terus berinovasi dan memberikan pelayanan terbaik</p>
     </div>
     <img src="https://img.freepik.com/free-photo/attractive-pleased-female-asian-student-show-okay-ok-confirmation-gesture-enjoy-perfect-party-smiling-broadly-satisfied-wearing-denim-jacket-orange-t-shirt_176420-37768.jpg?size=626&ext=jpg&ga=GA1.1.1308090139.1701668354&semt=ais" alt="Feedback">
@@ -75,4 +79,4 @@
         </section>
         
     </div>
-</body>
+<?= $this->endSection(); ?>

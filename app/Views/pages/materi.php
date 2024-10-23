@@ -1,3 +1,6 @@
+<?= $this->extend('layout/main'); ?>
+
+<?= $this->section('content'); ?>
 <div class="materi-wrapper">
     <h2>Modul Pembelajaran</h2>
     <h3>Selamat belajar!</h3>
@@ -26,3 +29,4 @@
         </div>
     </div>
 </div>
+<?= $this->endSection(); ?>

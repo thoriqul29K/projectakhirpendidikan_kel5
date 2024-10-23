@@ -9,9 +9,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Home|WebPendidikan'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/index');
-        echo view('layout/footer');
+        return view('pages/index', $data);
     }
 
     public function biodata()
@@ -19,9 +17,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Biodata|WebPendidikan'
         ];
-         echo view('layout/header', $data);
-         echo view('pages/biodata');
-         echo view('layout/footer');
+         return view('pages/biodata', $data);
     }
 
     public function kuis()
@@ -29,9 +25,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Kuis|WebPendidikan'
         ];
-         echo view('layout/header', $data);
-         echo view('pages/kuis');
-         echo view('layout/footer');
+         return view('pages/kuis', $data);
     }
 
     public function materi()
@@ -39,8 +33,14 @@ class Pages extends BaseController
         $data = [
             'title' => 'Materi|WebPendidikan'
         ];
-         echo view('layout/header', $data);
-         echo view('pages/materi');
-         echo view('layout/footer');
+         return view('pages/materi', $data);
+    }
+
+    public function umpan_balik()
+    {
+        $data = [
+            'title' => 'Umpan Balik|WebPendidikan'
+        ];
+        return view('pages/umpan_balik', $data);
     }
 }
