@@ -23,7 +23,7 @@ body{
     font-family: courier;
     display: flex; /* Menampilkan judul secara sejajar dengan menu */
     align-items: center; /* Mengatur judul secara vertikal tengah dengan menu */
-    color: #161A30;
+    color: #f3faee;
 }
 
 .menu {
@@ -40,7 +40,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: greenyellow;
+    background-color: #384b70;
     z-index: 1;
     border-bottom: 1px solid #161A30;
 }
@@ -61,7 +61,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: black;
+    color: #f3faee;
     font-weight: bold;
     text-align: center;
     padding: 0px 16px;
