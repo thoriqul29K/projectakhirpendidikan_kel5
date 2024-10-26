@@ -16,7 +16,7 @@
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PRW.jpg') ?>" alt="Kuis Rekayasa Web">
-            <p><a href="#">Rekayasa Web</a></p>
+            <p><a href="<?= base_url('/kuis/rekayasa_web') ?>">Rekayasa Web</a></p>
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PPV.png') ?>" alt="Kuis Pemrograman Visual">

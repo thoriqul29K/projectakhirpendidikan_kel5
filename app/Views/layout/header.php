@@ -1,6 +1,6 @@
 <nav>
     <div class="wrapper">
-        <div class="logo"><a href="">Kelompok 5</a></div>
+        <div class="logo"><a href="">MI- GO!</a></div>
         <div class="menu">
             <ul>
                 <li><a href="<?= base_url("/") ?>">Home</a></li>

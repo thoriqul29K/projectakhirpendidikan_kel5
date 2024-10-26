@@ -116,7 +116,7 @@ a.tbl-biru {
 }
 
 a.tbl-biru:hover{
-    background: #F857B5;
+    background: #F3F3E0;
     text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ a.tbl-pink{
     justify-content: center;
     width: 150px; /* Ukuran lebar background */
     height: 30px; /* Ukuran tinggi background */
-    background: #F857B5;
+    background: #96EFFF;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -136,7 +136,7 @@ a.tbl-pink{
 }
 
 a.tbl-pink:hover{
-    background: #96EFFF;
+    background: #F3F3E0;
     text-decoration: none;
 }
 

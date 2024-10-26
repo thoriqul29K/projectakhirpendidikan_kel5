@@ -7,7 +7,7 @@ class Pages extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Home|WebPendidikan'
+            'title' => 'Home|MI-GO'
         ];
         return view('pages/index', $data);
     }
@@ -15,7 +15,7 @@ class Pages extends BaseController
     public function biodata()
     {
         $data = [
-            'title' => 'Biodata|WebPendidikan'
+            'title' => 'Biodata|MI-GO'
         ];
          return view('pages/biodata', $data);
     }
@@ -23,7 +23,7 @@ class Pages extends BaseController
     public function kuis()
     {
         $data = [
-            'title' => 'Kuis|WebPendidikan'
+            'title' => 'Kuis|MI-GO'
         ];
          return view('pages/kuis', $data);
     }
@@ -43,4 +43,18 @@ class Pages extends BaseController
         ];
         return view('pages/umpan_balik', $data);
     }
+
+    public function rekayasa_web($bab = null) {
+        if ($bab) {
+            return view('pages/kuis/bab', ['bab' => $bab]);
+        }
+        return view('pages/kuis/rekayasa_web');
+    }
+    
+    public function submit_quiz() {
+        // Simulasikan perhitungan nilai
+        $nilai = rand(60, 100);
+        return view('pages/kuis/nilai', ['nilai' => $nilai]);
+    }
+    
 }
