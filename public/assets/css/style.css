@@ -233,7 +233,13 @@ a.tbl-pink:hover{
     border-radius: 8px;
     padding: 20px;
     text-align: center;
+    transition: 0.2s;
 }
+.kuis-card:hover{
+transform: scale(1.05);
+background-color: #384b70;
+color: #384b70;
+    }
 
 .kuis-card img {
     width: 150px;
@@ -248,13 +254,14 @@ a.tbl-pink:hover{
 }
 
 .kuis-card a {
-    color: #F857B5;
+    color: plum;
     text-decoration: none;
 }
-
 .kuis-card a:hover {
+    color: #96EFFF;
     text-decoration: underline;
 }
+
 
 /* NOTE!!!!!!! Khusus untuk halaman materi.php */
 .materi-wrapper {
@@ -275,6 +282,7 @@ a.tbl-pink:hover{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 30px;
 }
 .materi-card {
     width: 200px;
@@ -282,6 +290,11 @@ a.tbl-pink:hover{
     border-radius: 8px;
     padding: 20px;
     text-align: center;
+    transition: transform 0.2s;
+}
+.materi-card:hover {
+    transform: scale(1.05);
+    background-color: #384b70;
 }
 
 .materi-card img {
@@ -297,10 +310,11 @@ a.tbl-pink:hover{
 }
 
 .materi-card a {
-    color: #F857B5;
+    color: plum;
     text-decoration: none;
 }
 
-.materi-card a:hover {
+.kuis-card a:hover {
+    color: #96EFFF;
     text-decoration: underline;
 }

@@ -1,5 +1,4 @@
 <?= $this->extend('layout/main'); ?>
-
 <?= $this->section('content'); ?>
 <div class="kuis-wrapper">
     <h2>Latihan Kuis</h2>
@@ -16,7 +15,7 @@
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PRW.jpg') ?>" alt="Kuis Rekayasa Web">
-            <p><a href="<?= base_url('/kuis/rekayasa_web') ?>">Rekayasa Web</a></p>
+            <p><a href="Kuis/mataPelajaran/Rekayasa_web">Rekayasa Web</a></p>
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PPV.png') ?>" alt="Kuis Pemrograman Visual">
