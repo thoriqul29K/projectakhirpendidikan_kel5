@@ -33,13 +33,20 @@ class Kuis extends BaseController
         return view("pages/kuis/$namaMataPelajaran/$bab", $data);
     }
 
-    public function hasil($nilai)
-    {
-        // Tampilkan halaman hasil setelah menyelesaikan kuis
-        $data = [
-            'title' => 'Hasil Kuis',
-            'nilai' => $nilai
-        ];
-        return view('pages/kuis/hasil', $data);
-    }
+    public function hasil()
+{
+    $input = $this->request->getJSON();
+    $skor = $input->skor ?? 0;
+
+    $pesan = ($skor >= 80) ? "Selamat, Anda lulus!" : "Jangan khawatir, terus belajar dan coba lagi!";
+
+    $data = [
+        'title' => 'Hasil Kuis',
+        'skor' => $skor,
+        'pesan' => $pesan
+    ];
+
+    return view('pages/kuis/hasil', $data);
+}
+
 }

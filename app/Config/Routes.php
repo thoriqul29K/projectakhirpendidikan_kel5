@@ -9,6 +9,7 @@ $routes->get('/', 'Pages::index');
 $routes->get('/biodata', 'Pages::biodata');
 $routes->get('/kuis', 'Pages::kuis');
 $routes->get('/materi', 'Pages::materi');
+$routes->get('hasil', 'Kuis::hasil');
 $routes->get('/umpan_balik', 'Pages::umpan_balik');
 $routes->group('Kuis', function ($routes) {
     // Rute untuk halaman utama daftar mata pelajaran

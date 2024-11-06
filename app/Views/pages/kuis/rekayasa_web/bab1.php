@@ -15,7 +15,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const questionsContainer = document.getElementById("questionsContainer");
-        
+
         soalRekayasaWebBab1.forEach((soal, index) => {
             const questionDiv = document.createElement("div");
             questionDiv.classList.add("question");
@@ -40,6 +40,34 @@
             });
 
             questionsContainer.appendChild(questionDiv);
+        });
+
+        document.getElementById("quizForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            let score = 0;
+
+            soalRekayasaWebBab1.forEach((soal, index) => {
+                const selectedOption = document.querySelector(`input[name="soal${index + 1}"]:checked`);
+                if (selectedOption && selectedOption.value === soal.jawaban) {
+                    score += 10; // Tambah 10 poin untuk setiap jawaban yang benar
+                }
+            });
+
+            // Kirim skor ke halaman hasil
+            fetch("<?= base_url('Kuis/hasil') ?>", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ skor: score })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.href = "<?= base_url('Kuis/hasil') ?>";
+                }
+            })
+            .catch(error => console.error("Error:", error));
         });
     });
 </script>

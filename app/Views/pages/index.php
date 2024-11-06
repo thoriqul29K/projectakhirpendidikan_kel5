@@ -7,9 +7,9 @@
         <section id="home">
             <img src="<?= base_url('assets/images/foto-depan.jpg') ?>" alt="Musim" width="500" height="300">
             <div class="kolom">
-                <p class="deskripsi">Mengenal Website pendidikan</p>
+                <p class="deskripsi">Mengenal Website MI-GO</p>
                 <h2>Apa saja informasi yang bisa dicari?</h2>
-                <p>Di website ini, anda bisa melihat daftar pelajaran, materi pembelajaran, daftar kehadiran dan izin secara online, kuis, dan mengirim saran/kritik!</p>
+                <p>Di website ini, anda bisa melihat modul materi pelajaran dan melatih ilmu anda menggunakan kuis! </p>
                 <p><a href="#Materi" class="tbl-pink">Menuju ke materi</a></p>
             </div>
         </section>
@@ -19,7 +19,7 @@
     <div class="kolom">
         <p class="deskripsi">Sampaikan umpan balik untuk kami!.</p>
         <h2>Umpan Balik</h2>
-        <p>Kami sangat menghargai masukan Anda! Berikan pendapat anda untuk membantu kami meningkatkan layanan kami</p>
+        <p>Kami sangat menghargai masukan Anda! Berikan pendapat anda untuk membantu kami meningkatkan kualitas web kami</p>
         <p>Kami berkomitmen untuk selalu memberikan yang terbaik. Sampaikan feedback Anda agar kami bisa terus meningkatkan kualitas layanan kami.</p>
         <p><a href="<?= base_url('/umpan_balik') ?>" class="tbl-biru">Klik Disini</a></p>
         <p>Terima kasih telah menggunakan layanan kami! Kami ingin mendengar dari Anda untuk terus berinovasi dan memberikan pelayanan terbaik</p>
