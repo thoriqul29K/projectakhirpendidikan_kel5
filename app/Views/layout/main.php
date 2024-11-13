@@ -14,10 +14,9 @@
             <ul>
                 <li><a href="<?= base_url("/") ?>">Home</a></li>
                 <li><a href="<?= base_url('/umpan_balik') ?>">Umpan Balik</a></li>
-                <li><a href="<?= base_url('/Kuis') ?>">Kuis</a></li>
+                <li><a href="#profildev">Biodata</a></li>
                 <li><a href="<?= base_url('/materi') ?>">Materi</a></li>
-                <li><a href="https://wa.me/6281311592415" target="_blank">Contact</a></li>
-                <li><a href="#profildev" class="tbl-biru">Biodata</a></li>
+                <li><a href="<?= base_url('/Kuis') ?>" class="tbl-biru">Kuis</a></li>
             </ul>
         </div>
     </div>
