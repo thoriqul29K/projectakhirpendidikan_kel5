@@ -16,7 +16,7 @@
                 <li><a href="<?= base_url('/umpan_balik') ?>">Umpan Balik</a></li>
                 <li><a href="#profildev">Biodata</a></li>
                 <li><a href="<?= base_url('/materi') ?>">Materi</a></li>
-                <li><a href="<?= base_url('/Kuis') ?>" class="tbl-biru">Kuis</a></li>
+                <li><a href="<?= base_url('/kuis') ?>" class="tbl-biru">Kuis</a></li>
             </ul>
         </div>
     </div>

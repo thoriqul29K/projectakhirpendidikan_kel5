@@ -43,19 +43,6 @@ class Pages extends BaseController
         ];
         return view('pages/umpan_balik', $data);
     }
-
-    public function rekayasa_web($bab = null) {
-        if ($bab) {
-            return view('pages/kuis/rekayasa_web/bab', ['bab' => $bab]);
-        }
-        return view('pages/kuis/rekayasa_web/index');
-    }
-    
-    public function submit_quiz() {
-        // Simulasikan perhitungan nilai
-        $nilai = rand(60, 100);
-        return view('pages/kuis/rekayasa_web/nilai', ['nilai' => $nilai]);
-    }
     
     
 }
