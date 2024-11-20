@@ -8,15 +8,15 @@
     <div class="kuis-list">
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/SIA.jpg') ?>" alt="Kuis Sistem Informasi Akuntansi">
-            <p><a href="#">Sistem Informasi Akuntansi</a></p>
+            <p><a href="<?= base_url('/kuis/kuis_sistem_informasi_akuntansi') ?>">Sistem Informasi Akuntansi</a></p>
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PKK.jpg') ?>" alt="Kuis Keamanan Komputer">
-            <p><a href="#">Keamanan Komputer</a></p>
+            <p><a href="<?= base_url('/') ?>">Keamanan Komputer</a></p>
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PRW.jpg') ?>" alt="Kuis Rekayasa Web">
-            <p><a href="/kuis/kuis_rekayasa_web">Rekayasa Web</a></p>
+            <p><a href="<?= base_url('/kuis/kuis_rekayasa_web') ?>">Rekayasa Web</a></p>
         </div>
         <div class="kuis-card">
             <img src="<?= base_url('assets/images/PPV.png') ?>" alt="Kuis Pemrograman Visual">

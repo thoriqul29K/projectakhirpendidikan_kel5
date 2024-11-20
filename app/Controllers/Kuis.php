@@ -8,6 +8,10 @@ class Kuis extends BaseController
     {
         return view('pages/kuis/rekayasa_web/kuis_RY');
     }
+    public function kuis_sistem_informasi_akuntansi()
+    {
+        return view('pages/kuis/sistem_informasi_akuntansi/kuis_SIA');
+    }
 
    
 

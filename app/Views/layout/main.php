@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="profile-item">
-                    <img src="<?= base_url('assets/images/default_user.jpg') ?>" alt="Foto Profil 2">
+                    <img src="<?= base_url('assets/images/Thoriqul.jpg') ?>" alt="Foto Profil 2">
                     <p>
                         Nama  : Muhammad Thoriqul Kirom <br>
                         Kelas : 5 MIM <br>

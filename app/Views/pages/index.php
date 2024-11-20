@@ -70,7 +70,7 @@
         <section id="Kuis">
             <div class="tengah">
                 <div class="kolom">
-                    <p class="deskripsi">Silahkan tes kemampuan anda!</p>
+                    <p class="deskripsi"><i>Silahkan</i> tes kemampuan anda!</p>
                     <h2>Kuis</h2>
                     <p>Setelah membaca <a href="<?= base_url("/materi") ?>">materi</a> diatas, dan ingin mengasah kemampuan anda, silahkan klik tombol dibawah ini</p>
                     <p><a href="<?= base_url('/kuis') ?>" class="tbl-biru">Klik Disini</a></p>

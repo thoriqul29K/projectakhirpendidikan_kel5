@@ -1,80 +1,67 @@
 const myQuestions = [
     {
-      title: "Framework",
-      question: "Apa itu framework<p>Select your answer then Confirm.</p>",
+      title: "Ilmu Dasar",
+      question: "Apa tujuan utama Sistem Informasi Akuntansi?</p>",
       background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
       answers: {
-        a: "when you arrive and leave iDiv.",
-        b: "when you arrive at iDiv.",
-        c: "only in case of emergency."
+        a: "Memudahkan proses pencatatan manual",
+        b: "Mendukung pengambilan keputusan manajerial",
+        c: "Mengurangi kebutuhan sumber daya manusia"
       },
-      correctAnswer: "a",
-      correctAnswerText: "That is correct.<p>For safety reasons, the BIOCON coordinator should be notified when you arrive and leave iDiv on weekends or public holidays.</p>",
-      falseAnswerText: "That's not correct.<p>The BIOCON coordinator should be informed in any case!</p>"
+      correctAnswer: "b",
+      correctAnswerText: "Benar!<p>Tujuan utama SIA adalah mendukung pengambilan keputusan manajerial</p>",
+      falseAnswerText: "Salah!.<pMemudahkan proses pencatatan manual dan mengurangi kebutuhan sumber daya manusia bukanlah tujuan utama SIA</p>"
     },
     {
-      title: "Question 2 - Major Accidents",
-      question: "In the event of a serious accident which requires a doctor you must submit an accident report to your university and a copy to the iDiv H&S coordinator. Accident reports must be filled in German. How many days after the accident you must submit the report?<p>Select your answer then Confirm.</p>",
+      title: "Fungsi",
+      question: "Apa fungsi utama dari jurnal dalam siklus akuntansi?</p>",
       background: `<img src="${baseUrl}/assets/images/bg_slide2.jpg">`,
       answers: {
-        a: "Submit within 2 days of the accident",
-        b: "Submit within 3 days of the accident",
-        c: "Submit within 5 days of the accident"
+        a: "Menyimpan saldo akhir periode",
+        b: "Mengelompokkan transaksi berdasarkan jenis",
+        c: "Mencatat transaksi harian secara kronologis"
       },
-      correctAnswer: "b",
-      correctAnswerText: "That is correct.<p>Submit accident report to MLU within 3 days of the accident – send a copy to iDiv H&S coordinator (forms can be downloaded from the intranet).</p>",
-      falseAnswerText: "That is wrong.<p>Submit this form within 3 days of the accident!</p>"
+      correctAnswer: "c",
+      correctAnswerText: "Benar!<p>fungsi utama dari jurnal dalam siklus akuntansi adalah mencatat transaksi harian secara kronologis</p>",
+      falseAnswerText: "Salah!<p>Menyimpan saldo akhir periode dan mengelompokkan transaksi berdasarkan jenis bukanlah fungsi utama dari jurnal</p>"
     },
     {
-      title: "Question 3 - Outside the office",
-      question: "You are planning a field trip to Peneda Geres? Remember: A business trip form has to be submitted.<p>It's lunchtime, you are planning to go to the HIT market to catch some food. Are you health insured inside HIT?</p><p>Select your answer then Confirm.</p>",
+      title: "Activity Based Costing",
+      question: "Apa yang dimaksud dengan Activity-Based Costing (ABC)?</p>",
       background: `<img src="${baseUrl}/assets/images/bg_slide3.jpg">`,
       answers: {
-        a: "Yes, I'm full covered for sure.",
-        b: "No coverage through employer‘s health insurance.",
-        c: "No, the way to HIT is not covered but inside HIT for sure!"
-      },
-      correctAnswer: "b",
-      correctAnswerText: "That is correct.<p>No coverage through employer‘s health/liability insurance at HIT or cafeteria. The way to HIT is covered, but not inside HIT!</p>",
-      falseAnswerText: "That´s wrong!<p>You are not health insured inside HIT, only the way to the supermarket is covered by your health insurance.</p>"
-    },
-    {
-      title: "Question 4 - Assembly point",
-      question: "Do you know our assembly point of Interim II?<p>Select your answer then Confirm.</p>",
-      background: `<img src="${baseUrl}/assets/images/bg_slide4.gif">`,
-      answers: {
-        a: "X1",
-        b: "X2",
-        c: "X3"
+        a: "Teknik estimasi biaya berdasarkan aktivitas yang relevan",
+        b: "Sistem pelaporan keuangan eksternal",
+        c: "Proses mengelompokkan transaksi ke buku besar"
       },
       correctAnswer: "a",
-      correctAnswerText: "That is correct.<p>Our assembly point is opposite the main entrance next to the trees.</p>",
-      falseAnswerText: "That is not correct.<p>X2 is no assembly point and X3 is the assembly point for Interim III.</p>"
+      correctAnswerText: "Benar!<p>Activity Based Costing adalah teknik estimasi biaya berdasarkan aktivitas yang relevan</p>",
+      falseAnswerText: "Salah!<p>Activity Based Costing adalah teknik estimasi biaya berdasarkan aktivitas yang relevan</p>"
     },
     {
-      title: "Question 5 - Fire alarm",
-      question: "Almost there...<p>In case of fire. Alarm & warn people in the building! Fire alarms are located always different per department! Do you know the location of the fire alarms in BIOCON?</p><p>Select your answer then Confirm.</p>",
-      background: `<img src="${baseUrl}/assets/images/bg_slide5.jpg">`,
+      title: "Akuntansi Manajerial",
+      question: "Dalam akuntansi manajerial, apa yang dimaksud dengan orientasi waktu?</p>",
+      background: `<img src="${baseUrl}/assets/images/bg_slide4.gif">`,
       answers: {
-        a: "Main entrance door",
-        b: "Next to Resilience room",
-        c: "Opposite of woman restroom"
+        a: "Fokus pada data historis",
+        b: "Berorientasi pada masa depan",
+        c: "Mengelola informasi real-time"
       },
-      correctAnswer: "c",
-      correctAnswerText: "That is correct.<p>The fire alarm is located opposite of woman restroom. Call fire service - 112! Focus on main questions: WHO is calling? WHAT happened? WHERE did it happen? HOW many are injured? WAIT for questions!</p>",
-      falseAnswerText: "That is not correct.<p>Check the floor before you try again.</p>"
+      correctAnswer: "b",
+      correctAnswerText: "Benar!<p>orientasi waktu adalah berorientasi pada masa depan</p>",
+      falseAnswerText: "Salah!<p>orientasi waktu adalah berorientasi pada masa depan</p>"
     },
     {
-      title: "Question 6 - ireng company",
-      question: "Almost there...<p>Siapakah Pak Amba?</p>",
+      title: "Ilmu Dasar",
+      question: "Apa perbedaan utama antara akuntansi keuangan dan akuntansi manajerial?</p>",
       background: `<img src="${baseUrl}/assets/images/bg_slide5.jpg">`,
       answers: {
-        a: "Orang hebat",
-        b: "Orang tidak hebat",
-        c: "Orang biasa biasa saja"
+        a: "Akuntansi keuangan bersifat objektif, sementara akuntansi manajerial cenderung subjektif",
+        b: "Akuntansi keuangan menggunakan data masa depan",
+        c: "Akuntansi manajerial hanya berfokus pada laba rugi"
       },
-      correctAnswer: "c",
-      correctAnswerText: "Yap, betul.<p>Pak Amba hanyalah orang biasa</p>",
-      falseAnswerText: "Salah.<p>Pak Amba hanya orang biasa</p>"
+      correctAnswer: "a",
+      correctAnswerText: "Benar!<p></p>",
+      falseAnswerText: "Salah!"
     }
   ];
