@@ -65,6 +65,9 @@ input[type=radio] {
     top: 20px; 
     width: 900px; 
 }
+.question{
+    margin-bottom: 0px;
+}
 .question, #results {
     position: absolute; 
     visibility: visible; 
@@ -79,10 +82,10 @@ input[type=radio] {
     font-size: 20px;
 }
 .answers {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: left;
     position: absolute;
-    top: 260px;
+    top: 180px;
     left: 50px; 
 }
 .answers label{

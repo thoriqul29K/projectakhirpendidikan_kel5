@@ -34,15 +34,17 @@
         </div>
         <div id="quizresultsContainer"></div>
       </div>
-      <button id="confirm" class="btn btn-default">Confirm</button>
+      <button id="confirm" class="btn btn-default">Konfirmasi</button>
 
-      <button id="next" class="btn btn-default">Next Question</button>
+      <button id="next" class="btn btn-default">Pertanyaan Selanjutnya</button>
 
-      <button id="submit" class="btn btn-default">Show My Result</button>
+      <button id="submit" class="btn btn-default">Tunjukkan Hasil!</button>
     </div>
     
   </div>
-    
+<script>
+  const baseUrl = "<?= base_url() ?>";
+</script>
 <!-- jQuery -->
 <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
 <!-- Bootstrap JS -->
@@ -53,10 +55,9 @@
     new WOW().init();
 </script>
 <!-- Fetch Questions from JSON -->
-<script type="text/javascript" src="<?= base_url('assets/pertanyaan_kuis/questions.js') ?>"></script>
+<script type="text/javascript" src="<?= base_url('assets/pertanyaan_kuis/kuis_rekayasa_web.js') ?>"></script>
 
 <script>
-
   // wrap the whole quiz in an IIFE (immediately invoked function expression), 
   // which is a function that runs as soon as you define it. 
   // That way, your variables will stay out of global scope and your quiz won’t interfere with any other scripts running on the page.
@@ -228,11 +229,11 @@ function showAnswer() {
 
     // show number of correct answers out of total
     if (numCorrect === quizLength) {
-    resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Congratulations!</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Very good, you seem to be a pro!</p><p>You answered ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="http://geobon.org"><button class="btn btn-default">My Dashboard</button></a></div>`;
+    resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Selamat!</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Sangat bagus, kamu sudah menguasai materinya!</p><p>Kamu menjawab ${numCorrect} pertanyaan secara benar dari total ${myQuestions.length} pertanyaan.</p><a href="<?= base_url('/') ?>"><button class="btn btn-default">Kembali ke home</button></a></div>`;
     } else if (numCorrect >= quizHalf && numCorrect < quizLength ) {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Not bad...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>but not enough to be a winner.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href=<?= base_url('/index.html') ?>""><button id="playAgain" class="btn btn-default">Play again</button></a></div>`;
+      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Lumayan...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Tetapi masih kurang untuk menjadi juara, kamu butuh sedikit belajar lagi!.</p><p>Kamu menjawab ${numCorrect} pertanyaan secara benar dari total ${myQuestions.length} pertanyaan.</p><button onclick="location.reload();" id="playAgain" class="btn btn-default">Ulang lagi!</button> <a href="<?= base_url('/') ?>"><button class="btn btn-default">Kembali ke home</button></a></div>`;
     } else {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Very bad...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>You need to practice! All employees need to be familiar with the iDiv Health & Security rules.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="<?= base_url('/index.html') ?>"><button id="playAgain" class="btn btn-default">Play again</button></a></div>`;
+      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Sangat buruk...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Kamu butuh belajar lagi!</p><p>Kamu hanya menjawab ${numCorrect} pertanyaan secara benar dari total ${myQuestions.length} pertanyaan.</p><button onclick="location.reload();" id="playAgain" class="btn btn-default">Ulang lagi!</button> <a href="<?= base_url('/') ?>"><button class="btn btn-default">Kembali ke home</button></a></div>`;
     }
     
     // switch off Title, Question and Answers
@@ -278,6 +279,8 @@ function showAnswer() {
     // show Answers Options and confirmButton again
     confirmButton.classList.remove("disabled");
     $('.answers').removeClass('disabled');
+    if (currentSlide === slides.length - 1) {
+    nextButton.style.display = "none";}
 
   };
 
@@ -336,6 +339,7 @@ function showAnswer() {
   nextButton.addEventListener("click", showNextSlide);
 
   submitButton.addEventListener("click", showResults);
+  nextButton.style.display = slides.length > 1 ? "inline-block" : "none";
 
 })();
 </script>
