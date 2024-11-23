@@ -12,4 +12,4 @@ $routes->get('/materi', 'Pages::materi');
 $routes->get('/umpan_balik', 'Pages::umpan_balik');
 $routes->get('/kuis/rekayasa_web', 'Kuis::kuis_rekayasa_web');
 $routes->get('/kuis/sistem_informasi_akuntansi', 'Kuis::kuis_sistem_informasi_akuntansi');
-$routes->setAutoRoute(true);
+$routes->post('umpan_balik/submit', 'Umpanbalik::submit');

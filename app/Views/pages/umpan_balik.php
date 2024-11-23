@@ -22,6 +22,11 @@
                     <?= $message; ?>
                 </div>
             <?php endif; ?>
+            <?php if (session()->get('message')) : ?>
+    <div class="feedback-message">
+        <?= session()->get('message'); ?>
+    </div>
+<?php endif; ?>
         </div>
 
         <style>

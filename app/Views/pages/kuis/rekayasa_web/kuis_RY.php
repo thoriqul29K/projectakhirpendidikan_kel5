@@ -17,7 +17,7 @@
 
     <link type="text/css" rel="stylesheet" href="<?= base_url('assets/css/font-awesome.min.css') ?>">
 
-    <link type="text/css" rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>">
+    <link type="text/css" rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>"> 
 
 
 
