@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div> 
-        </section>
+        </section>                     
 
         <!-- untuk Kuis -->
         <section id="Kuis">

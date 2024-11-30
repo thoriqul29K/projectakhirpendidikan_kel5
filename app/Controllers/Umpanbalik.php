@@ -8,29 +8,31 @@ class Umpanbalik extends Controller
 {
     public function submit()
     {
+        // Ambil data dari form
         $nama = $this->request->getPost('nama');
-        $email = $this->request->getPost('email'); // Email dari form
-        $umpanbalik = $this->request->getPost('umpan_balik');
+        $email = $this->request->getPost('email');
+        $feedback = $this->request->getPost('feedback');
 
+        // Konfigurasi email
         $emailService = \Config\Services::email();
-
-        // Konfigurasi Email
-        $emailService->setTo('migowebkel5@gmail.com'); // Email penerima
-        $emailService->setFrom($email, $nama);        // Email pengirim dari form
-        $emailService->setSubject('Umpan Balik dari ' . $nama);
+        $emailService->setTo('migowebkel5@gmail.com');
+        $emailService->setFrom('your_email@gmail.com', 'Umpan Balik'); // Sesuaikan dengan Email Sender
+        $emailService->setSubject("Umpan Balik dari $nama");
         $emailService->setMessage("
-            <h1>Umpan Balik</h1>
-            <p><strong>Nama:</strong> {$nama}</p>
-            <p><strong>Email:</strong> {$email}</p>
-            <p><strong>Pesan:</strong><br>{$umpanbalik}</p>
+            Nama: $nama
+            Email: $email
+            Pesan/Umpan Balik:
+            $feedback
         ");
 
-        // Kirim email dan tampilkan pesan
+        // Kirim email dan tangani respon
         if ($emailService->send()) {
-            return redirect()->back()->with('message', 'Umpan balik Anda berhasil dikirim!');
+            session()->setFlashdata('message', 'Umpan balik berhasil dikirim. Terima kasih!');
         } else {
-            $error = $emailService->printDebugger(['headers']);
-            return redirect()->back()->with('message', 'Terjadi kesalahan saat mengirim email: ' . $error);
+            session()->setFlashdata('message', 'Gagal mengirim umpan balik. Silakan coba lagi.');
         }
+
+        // Redirect ke halaman umpan balik
+        return redirect()->to(base_url('umpan_balik'));
     }
 }

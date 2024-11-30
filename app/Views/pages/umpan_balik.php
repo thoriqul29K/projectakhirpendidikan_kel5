@@ -4,18 +4,18 @@
 
 <div class="feedback-wrapper">
             <h2>Umpan Balik</h2>
-            <form action="<?= base_url('feedback/submit'); ?>" method="post">
-                <label for="nama">Nama:</label>
-                <input type="text" id="nama" name="nama" required>
+            <form action="<?= base_url('umpan_balik/submit'); ?>" method="post">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-                <label for="feedback">Pesan atau Umpan Balik:</label>
-                <textarea id="feedback" name="feedback" required></textarea>
+    <label for="feedback">Pesan atau Umpan Balik:</label>
+    <textarea id="feedback" name="feedback" required></textarea>
 
-                <input type="submit" value="Kirim">
-            </form>
+    <input type="submit" value="Kirim">
+</form>
 
             <?php if (isset($message)) : ?>
                 <div class="feedback-message">
