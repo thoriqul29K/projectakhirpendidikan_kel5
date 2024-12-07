@@ -9,15 +9,15 @@
     <div class="materi-list">
         <div class="materi-card">
             <img src="<?= base_url('assets/images/SIA.jpg') ?>" alt="Modul Materi Sistem Informasi Akuntansi">
-            <p><a href="#">Sistem Informasi Akuntansi</a></p>
+            <p><a href="<?= base_url('assets/materi/modul_SIA.pdf') ?>">Sistem Informasi Akuntansi</a></p>
         </div>
         <div class="materi-card">
             <img src="<?= base_url('assets/images/PKK.jpg') ?>" alt="Modul Materi Keamanan Komputer">
-            <p><a href="#">Keamanan Komputer</a></p>
+            <p><a href="<?= base_url('assets/materi/modul_KK.pdf') ?>">Keamanan Komputer</a></p>
         </div>
         <div class="materi-card">
             <img src="<?= base_url('assets/images/PRW.jpg') ?>" alt="Modul Materi Rekayasa Web">
-            <p><a href="#">Rekayasa Web</a></p>
+            <p><a href="<?= base_url('assets/materi/modul_RW.pdf') ?>">Rekayasa Web</a></p>
         </div>
         <div class="materi-card">
             <img src="<?= base_url('assets/images/PPV.png') ?>" alt="Modul Materi Pemrograman Visual">
