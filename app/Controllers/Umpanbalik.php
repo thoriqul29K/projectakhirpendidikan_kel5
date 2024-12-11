@@ -8,6 +8,7 @@ class Umpanbalik extends Controller
 {
     public function submit()
     {
+
         // Ambil data dari form
         $nama = $this->request->getPost('nama');
         $email = $this->request->getPost('email');
@@ -16,12 +17,12 @@ class Umpanbalik extends Controller
         // Konfigurasi email
         $emailService = \Config\Services::email();
         $emailService->setTo('migowebkel5@gmail.com');
-        $emailService->setFrom('your_email@gmail.com', 'Umpan Balik'); // Sesuaikan dengan Email Sender
+        $emailService->setFrom('migowebfeedback@gmail.com', 'Umpan Balik'); // Sesuaikan dengan Email Sender
         $emailService->setSubject("Umpan Balik dari $nama");
         $emailService->setMessage("
-            Nama: $nama
-            Email: $email
-            Pesan/Umpan Balik:
+            Nama: $nama <br>
+            Email: $email <br>
+            Pesan/Umpan Balik:<br>
             $feedback
         ");
 

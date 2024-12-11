@@ -235,11 +235,11 @@ a.tbl-pink:hover{
     padding: 20px;
     text-align: center;
     transition: 0.2s;
+    margin-bottom: 15px;
 }
 .kuis-card:hover{
 transform: scale(1.05);
 background-color: #384b70;
-color: #384b70;
     }
 
 .kuis-card img {
@@ -249,13 +249,9 @@ color: #384b70;
 }
 
 .kuis-card p {
+    color: plum;
     font-size: 18px;
     font-weight: bold;
-    color: #161A30;
-}
-
-.kuis-card p {
-    color: plum;
     text-decoration: none;
 }
 
@@ -288,6 +284,7 @@ color: #384b70;
     padding: 20px;
     text-align: center;
     transition: transform 0.2s;
+    margin-bottom: 15px;
 }
 .materi-card:hover {
     transform: scale(1.05);
@@ -303,4 +300,6 @@ color: #384b70;
 .materi-card p {
     color: plum;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }

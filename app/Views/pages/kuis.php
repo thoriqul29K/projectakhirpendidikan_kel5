@@ -77,34 +77,6 @@
 </div>
 
 <style>
-    .kuis-card {
-        display: block;
-        text-align: center;
-        margin: 10px;
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .kuis-card img {
-        max-width: 100px;
-        margin-bottom: 10px;
-    }
-
-    .kuis-card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-decoration: none;
-    }
-
-    .kuis-card p {
-        font-weight: bold;
-        color: #2c3e50;
-    }
-
     .accordion {
         background-color: #384b70;
         color: white;
