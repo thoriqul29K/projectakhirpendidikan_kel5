@@ -47,6 +47,10 @@
                             <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Pemrograman Berorientasi Objek">
                             <p>Pemrograman Berorientasi Objek</p>
                         </a>
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
+                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Basis Data I">
+                            <p>Basis Data 1</p>
+                        </a>
                     <?php elseif ($semester == 4): ?>
                         <!-- Card List Semester 4 -->
                         <a class="materi-card" href="<?= base_url('assets/materi/modul_DB.pdf') ?>">

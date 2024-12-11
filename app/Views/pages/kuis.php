@@ -40,6 +40,10 @@
                             <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Pemrograman Berorientasi Objek">
                             <p>Pemrograman Berorientasi Objek</p>
                         </a>
+                        <a href="<?= base_url('/kuis/sistem_operasi') ?>" class="kuis-card">
+                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Basis Data I">
+                            <p>Basis Data I</p>
+                        </a>
                     <?php elseif ($semester == 4): ?>
                         <a href="<?= base_url('/kuis/struktur_data') ?>" class="kuis-card">
                             <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Kuis Pemrograman Web">

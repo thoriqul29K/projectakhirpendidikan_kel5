@@ -17,7 +17,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Biodata|MI-GO'
         ];
-         return view('pages/biodata', $data);
+        return view('pages/biodata', $data);
     }
 
     public function kuis()
@@ -25,24 +25,30 @@ class Pages extends BaseController
         $data = [
             'title' => 'Kuis|MI-GO'
         ];
-         return view('pages/kuis', $data);
+        return view('pages/kuis', $data);
     }
 
     public function materi()
     {
         $data = [
-            'title' => 'Materi|WebPendidikan'
+            'title' => 'Materi|MI-GO'
         ];
-         return view('pages/materi', $data);
+        return view('pages/materi', $data);
     }
 
     public function umpan_balik()
     {
         $data = [
-            'title' => 'Umpan Balik|WebPendidikan'
+            'title' => 'Umpan Balik|MI-GO'
         ];
         return view('pages/umpan_balik', $data);
     }
-    
-    
+
+    public function profil()
+    {
+        $data = [
+            'title' => 'Profil|MI-GO'
+        ];
+        return view('pages/profil', $data);
+    }
 }
