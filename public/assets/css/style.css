@@ -254,13 +254,9 @@ color: #384b70;
     color: #161A30;
 }
 
-.kuis-card a {
+.kuis-card p {
     color: plum;
     text-decoration: none;
-}
-.kuis-card a:hover {
-    color: #96EFFF;
-    text-decoration: underline;
 }
 
 
@@ -305,17 +301,6 @@ color: #384b70;
 }
 
 .materi-card p {
-    font-size: 18px;
-    font-weight: bold;
-    color: #161A30;
-}
-
-.materi-card a {
     color: plum;
     text-decoration: none;
-}
-
-.kuis-card a:hover {
-    color: #96EFFF;
-    text-decoration: underline;
 }
