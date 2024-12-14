@@ -15,20 +15,24 @@
                 <div class="kuis-list">
                     <?php if ($semester == 1): ?>
                         <a href="<?= base_url('/kuis/logika_dan_pemrograman') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Kuis Logika dan Pemrograman">
+                            <img src="<?= base_url('assets/images/LdP.jpg') ?>" alt="Kuis Logika dan Pemrograman">
                             <p>Logika dan Pemrograman</p>
                         </a>
                         <a href="<?= base_url('/kuis/pengolahan_gambar_komputer') ?>" class="kuis-card">
                             <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Pengolahan Gambar Komputer">
                             <p>Pengolahan Gambar Komputer</p>
                         </a>
+                        <a class="kuis-card" href="<?= base_url('kuis/jaringan_komputer') ?>">
+                            <img src="<?= base_url('assets/images/JK.webp') ?>" alt="Modul Materi Jaringan Komputer">
+                            <p>Jaringan Komputer</p>
+                        </a>
                     <?php elseif ($semester == 2): ?>
                         <a href="<?= base_url('/kuis/struktur_data') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Kuis Struktur Data">
+                            <img src="<?= base_url('assets/images/SD.png') ?>" alt="Kuis Struktur Data">
                             <p>Struktur Data</p>
                         </a>
                         <a href="<?= base_url('/kuis/sistem_operasi') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Sistem Operasi">
+                            <img src="<?= base_url('assets/images/SO.jpg') ?>" alt="Kuis Sistem Operasi">
                             <p>Sistem Operasi</p>
                         </a>
                     <?php elseif ($semester == 3): ?>
@@ -37,21 +41,17 @@
                             <p>Pemrograman Mobile</p>
                         </a>
                         <a href="<?= base_url('/kuis/sistem_operasi') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Pemrograman Berorientasi Objek">
+                            <img src="<?= base_url('assets/images/PBO.png') ?>" alt="Kuis Pemrograman Berorientasi Objek">
                             <p>Pemrograman Berorientasi Objek</p>
-                        </a>
-                        <a href="<?= base_url('/kuis/sistem_operasi') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Basis Data I">
-                            <p>Basis Data I</p>
                         </a>
                     <?php elseif ($semester == 4): ?>
                         <a href="<?= base_url('/kuis/struktur_data') ?>" class="kuis-card">
                             <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Kuis Pemrograman Web">
                             <p>Pemrograman Web</p>
                         </a>
-                        <a href="<?= base_url('/kuis/sistem_operasi') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Kuis Basis Data II">
-                            <p>Basis Data II</p>
+                        <a href="<?= base_url('/kuis/basis_data') ?>" class="kuis-card">
+                            <img src="<?= base_url('assets/images/BD.jpg') ?>" alt="Kuis Basis Data ">
+                            <p>Basis Data </p>
                         </a>
                     <?php elseif ($semester == 5): ?>
                         <a href="<?= base_url('/kuis/sistem_informasi_akuntansi') ?>" class="kuis-card">
@@ -65,6 +65,14 @@
                         <a href="<?= base_url('/kuis/rekayasa_web') ?>" class="kuis-card">
                             <img src="<?= base_url('assets/images/PRW.jpg') ?>" alt="Kuis Rekayasa Web">
                             <p>Rekayasa Web</p>
+                        </a>
+                        <a class="kuis-card" href="<?= base_url('/kuis/pemrograman_visual') ?>">
+                            <img src="<?= base_url('assets/images/PPV.png') ?>" alt="Kuis Pemrograman Visual">
+                            <p>Pemrograman Visual</p>
+                        </a>
+                        <a class="kuis-card" href="<?= base_url('/kuis/analisis_data') ?>">
+                            <img src="<?= base_url('assets/images/PAD.png') ?>" alt="Kuis Analisis Data">
+                            <p>Analisis Data</p>
                         </a>
                     <?php elseif ($semester == 8): ?>
                         <a href="<?= base_url('/kuis/sistem_informasi_akuntansi') ?>" class="kuis-card">

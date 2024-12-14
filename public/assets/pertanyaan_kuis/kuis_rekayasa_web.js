@@ -109,5 +109,57 @@ const myQuestions = [
     correctAnswer: "a",
     correctAnswerText: "Selamat jawaban kamu benar.<p>Web multimedia memanfaatkan elemen seperti video, audio, dan grafik untuk meningkatkan pengalaman pengguna.</p>",
     falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Jika memilih b atau c, pahami bahwa multimedia justru memerlukan lebih banyak bandwidth dan tidak berfokus pada berita.</p>"
+  },
+  {
+    title: "Analisis Web",
+    question: "Mengapa penting memahami kategori situs web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Agar dapat memutuskan tampilan situs yang paling menarik",
+      b: "Agar memahami tujuan dan audiens setiap kategori",
+      c: "Untuk mempelajari teknologi terbaru"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Memahami kategori web membantu menentukan tujuan dan audiens yang ditargetkan.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan lain tidak relevan dengan konteks analisis situs.</p>"
+  },
+{
+  title: "Analisis Web",
+    question: "Apa saja aspek yang perlu dievaluasi saat menganalisis situs?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Desain, konten, interaktivitas, dan aksesibilitas.",
+      b: "Jenis file yang diunggah",
+      c: "Warna dominan di situs tersebut"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Aspek utama analisis mencakup desain, konten, interaktivitas, dan aksesibilitas.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Jika memilih b atau c, ingat bahwa file dan warna hanyalah bagian kecil dari evaluasi situs.</p>"
+},
+{
+    title: "Analisis Web",
+    question: "Mengapa situs web personal memiliki fleksibilitas lebih tinggi?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide5.jpg">`,
+    answers: {
+      a: "Tidak terikat oleh target audiens atau fungsi spesifik",
+      b: "Menggunakan teknologi terbaru",
+      c: "Mampu mengakomodasi banyak pengunjung"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Web personal biasanya dibuat untuk tujuan individu, tanpa batasan tertentu.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Jika memilih b atau c, pahami bahwa fleksibilitas tidak bergantung pada teknologi atau jumlah pengunjung.</p>"
+  },
+  {
+    title: "Analisis Web",
+    question: "Apa penyebab utama kegagalan situs web e-commerce?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide5.jpg">`,
+    answers: {
+      a: "Kurangnya promosi",
+      b: "Perencanaan bisnis yang kurang matang",
+      c: "Ketidakmampuan mempekerjakan desainer profesional"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Tanpa perencanaan bisnis yang matang, situs e-commerce tidak dapat berfungsi secara efisien.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan a dan c hanya berkontribusi sebagian kecil terhadap kegagalan.</p>"
   }
 ];

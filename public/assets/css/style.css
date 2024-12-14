@@ -40,7 +40,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: #384b70;
+    background-color: #2a2828;
     z-index: 1;
     border-bottom: 1px solid #161A30;
 }
@@ -78,6 +78,24 @@ section {
     margin-bottom: 50px;
 }
 
+/* Gaya untuk elemen .kolom_p */
+.kolom_p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffd147;
+    font-style: italic;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex; /* Menggunakan Flexbox */
+    flex-direction: column; /* Mengatur elemen ke arah kolom */
+    text-align: center; /* Agar teks di dalamnya tetap di tengah */
+}
+
 .kolom {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -95,7 +113,7 @@ h2 {
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color:#161A30;
+    color:#47a985;
     width: 100%;
     line-height: 50px;
 }
@@ -106,7 +124,7 @@ a.tbl-biru {
     justify-content: center;
     width: 100px; /* Ukuran lebar background */
     height: 30px; /* Ukuran tinggi background */
-    background: #96EFFF;
+    background: #ffd147;
     border-radius: 15px;
     margin-top: 15px;
     padding: 15px 20px 15px 20px;
@@ -120,22 +138,23 @@ a.tbl-biru:hover{
     text-decoration: none;
 }
 
-a.tbl-pink{
-    display: flex;
+a.tbl-pink {
+    display: inline-flex; /* Menggunakan inline-flex untuk menyesuaikan ukuran */
     align-items: center;
     justify-content: center;
-    width: 150px; /* Ukuran lebar background */
-    height: 30px; /* Ukuran tinggi background */
+    width: 150px;
+    height: 30px;
     background: #96EFFF;
     border-radius: 20px;
     margin-top: 20px;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 20px;
     color: #161A30;
     cursor: pointer;
     font-weight: bold;
+    text-align: center; /* Teks di dalam tombol tetap rata tengah */
 }
 
-a.tbl-pink:hover{
+a.tbl-pink:hover {
     background: #F3F3E0;
     text-decoration: none;
 }
@@ -143,6 +162,10 @@ a.tbl-pink:hover{
 .tengah{
     text-align: center;
     width: 100%;
+}
+
+#home {
+justify-content: center;
 }
 
 #home img {

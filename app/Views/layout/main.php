@@ -15,6 +15,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="<?= base_url("/") ?>">Home</a></li>
+                    <li><a href="<?= base_url("/profil") ?>">Profil</a></li>
                     <li><a href="<?= base_url('/umpan_balik') ?>">Umpan Balik</a></li>
                     <li><a href="#profildev">Biodata</a></li>
                     <li><a href="<?= base_url('/materi') ?>">Materi</a></li>
@@ -39,7 +40,7 @@
                 </ul>
                 <div class="profile">
                     <div class="profile-item">
-                        <img src="<?= base_url('assets/images/kilat 1 b copy-1.jpg') ?>" alt="Foto Profil 1">
+                        <img src="<?= base_url('assets/images/kilat 1 b copy-1.jpg') ?>" alt="Foto Profil 1" style="object-fit: cover;">
                         <p>
                             Nama : M. Rizki <br>
                             Kelas : 5 MIM <br>
@@ -48,7 +49,7 @@
                     </div>
 
                     <div class="profile-item">
-                        <img src="<?= base_url('assets/images/Thoriqul.jpg') ?>" alt="Foto Profil 2">
+                        <img src="<?= base_url('assets/images/Thoriqul.jpg') ?>" alt="Foto Profil 2" style="object-fit: cover;">
                         <p>
                             Nama : Muhammad Thoriqul Kirom <br>
                             Kelas : 5 MIM <br>
@@ -57,7 +58,7 @@
                     </div>
 
                     <div class="profile-item">
-                        <img src="<?= base_url('assets/images/Riwandi.jpg') ?>" alt="Foto Profil 3">
+                        <img src="<?= base_url('assets/images/Riwandi.jpg') ?>" alt="Foto Profil 3" style="object-fit: cover;">
                         <p>
                             Nama : Riwandi Apridiansyah <br>
                             Kelas : 5 MIM <br>

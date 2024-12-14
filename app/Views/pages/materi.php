@@ -15,51 +15,47 @@
                 <div class="materi-list">
                     <?php if ($semester == 1): ?>
                         <!-- Card List Semester 1 -->
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_DB.pdf') ?>">
-                            <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Modul Materi Logika Dan Pemrograman">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_LP.pdf') ?>">
+                            <img src="<?= base_url('assets/images/LdP.jpg') ?>" alt="Modul Materi Logika Dan Pemrograman">
                             <p>Logika Dan Pemrograman</p>
                         </a>
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Pengolahan Gambar Komputer & Fotografi">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_PGK.pdf') ?>">
+                            <img src="<?= base_url('assets/images/PGK.webp') ?>" alt="Modul Materi Pengolahan Gambar Komputer & Fotografi">
                             <p>Pengolahan Gambar Komputer & Fotografi</p>
                         </a>
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Jaringan Komputer">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_JK.pdf') ?>">
+                            <img src="<?= base_url('assets/images/JK.webp') ?>" alt="Modul Materi Jaringan Komputer">
                             <p>Jaringan Komputer</p>
                         </a>
                     <?php elseif ($semester == 2): ?>
                         <!-- Card List Semester 2 -->
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_DB.pdf') ?>">
-                            <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Modul Materi Struktur Data">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_SD.pdf') ?>">
+                            <img src="<?= base_url('assets/images/SD.png') ?>" alt="Modul Materi Struktur Data">
                             <p>Struktur Data</p>
                         </a>
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Sistem Operasi">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_SO.pdf') ?>">
+                            <img src="<?= base_url('assets/images/SO.jpg') ?>" alt="Modul Materi Sistem Operasi">
                             <p>Sistem Operasi</p>
                         </a>
                     <?php elseif ($semester == 3): ?>
                         <!-- Card List Semester 3 -->
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_DB.pdf') ?>">
-                            <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Modul Materi Pemrograman Mobile">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_PM.pdf') ?>">
+                            <img src="<?= base_url('assets/images/PM.jpg') ?>" alt="Modul Materi Pemrograman Mobile">
                             <p>Pemrograman Mobile</p>
                         </a>
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Pemrograman Berorientasi Objek">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_PBO.pdf') ?>">
+                            <img src="<?= base_url('assets/images/PBO.png') ?>" alt="Modul Materi Pemrograman Berorientasi Objek">
                             <p>Pemrograman Berorientasi Objek</p>
-                        </a>
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Basis Data I">
-                            <p>Basis Data 1</p>
                         </a>
                     <?php elseif ($semester == 4): ?>
                         <!-- Card List Semester 4 -->
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_DB.pdf') ?>">
-                            <img src="<?= base_url('assets/images/DB.jpg') ?>" alt="Modul Materi Desain & Pemrograman Web">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_DW.pdf') ?>">
+                            <img src="<?= base_url('assets/images/DW.png') ?>" alt="Modul Materi Desain & Pemrograman Web">
                             <p>Desain & Pemrograman Web</p>
                         </a>
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_ALGO.pdf') ?>">
-                            <img src="<?= base_url('assets/images/ALGO.jpg') ?>" alt="Modul Materi Basis Data II">
-                            <p>Basis Data II</p>
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_BD.pdf') ?>">
+                            <img src="<?= base_url('assets/images/BD.jpg') ?>" alt="Modul Materi Basis Data">
+                            <p>Basis Data</p>
                         </a>
                     <?php elseif ($semester == 5): ?>
                         <!-- Card List Semester 5 -->
@@ -75,11 +71,11 @@
                             <img src="<?= base_url('assets/images/PRW.jpg') ?>" alt="Modul Materi Rekayasa Web">
                             <p>Rekayasa Web</p>
                         </a>
-                        <a class="materi-card" href="#">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_PV.pdf') ?>">
                             <img src="<?= base_url('assets/images/PPV.png') ?>" alt="Modul Materi Pemrograman Visual">
                             <p>Pemrograman Visual</p>
                         </a>
-                        <a class="materi-card" href="#">
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_AD.pdf') ?>">
                             <img src="<?= base_url('assets/images/PAD.png') ?>" alt="Modul Materi Analisis Data">
                             <p>Analisis Data</p>
                         </a>
