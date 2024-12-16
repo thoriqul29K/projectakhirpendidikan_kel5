@@ -144,7 +144,7 @@ a.tbl-pink {
     justify-content: center;
     width: 150px;
     height: 30px;
-    background: #96EFFF;
+    background: #ffd147;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px;
@@ -166,6 +166,12 @@ a.tbl-pink:hover {
 
 #home {
 justify-content: center;
+}
+
+#home .wrapper {
+    width: 100%; /* Agar elemen dalam section #home mengambil seluruh lebar */
+    padding: 0;
+    margin: 0;
 }
 
 #home img {

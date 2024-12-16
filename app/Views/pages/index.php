@@ -8,7 +8,7 @@
         <div class="kolom_p">
             <br> <br>
             <p class="deskripsi">Mengenal Website MI-GO</p>
-            <h2>Apa saja informasi yang bisa dicari?</h2>
+            <h2>Apa saja Informasi yang bisa dicari?</h2>
             <p>Di website ini, anda bisa melihat modul materi pelajaran dan melatih ilmu anda menggunakan kuis! </p>
             <a href="#Materi" class="tbl-pink">Menuju ke materi</a>
         </div>
