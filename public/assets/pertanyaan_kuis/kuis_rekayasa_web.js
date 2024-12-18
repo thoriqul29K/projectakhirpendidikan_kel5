@@ -449,5 +449,83 @@ console.log(x);<p>`,
     correctAnswer: "a",
     correctAnswerText: "Selamat jawaban kamu benar!.<p>document.bgColor digunakan untuk mengatur warna latar belakang halaman web melalui JavaScript.</p>",
     falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Properti ini khusus untuk warna latar belakang, bukan teks atau margin.</p>"
+  },
+  {
+    title: "HTML dan JavaScript",
+    question: "Apa fungsi utama innerHTML di JavaScript?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Mengubah atau membaca konten HTML dalam elemen",
+      b: "Menambahkan elemen baru ke halaman web",
+      c: "Mengatur atribut CSS elemen"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>InnerHTML digunakan untuk mengubah atau membaca konten HTML dalam elemen tertentu.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>InnerHTML hanya untuk mengelola konten elemen, bukan atribut atau elemen baru.</p>"
+  },
+  {
+    title: "CSS Layout dan Tabel Layout",
+    question: "Apa kelebihan utama dari penggunaan CSS dalam layout web<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Membuat halaman web lebih lambat dimuat",
+      b: "Menambahkan animasi ke halaman web",
+      c: "Memudahkan pembaruan desain secara keseluruhan"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>CSS memisahkan dari struktur HTML, sehingga pembaruan tampilan lebih mudah dilakukan dengan mengedit satu file CSS.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>CSS mempercepat loading halaman dan animasi bukan fungsi utama CSS.</p>"
+  },
+  {
+title: "CSS Layout dan Tabel Layout",
+    question: "Apa kekurangan utama penggunaan tabel dalam layout web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Tidak mendukung semua browser",
+      b: "Membuat kode HTML menjadi terlalu panjang",
+      c: "Suli digunakan untuk menyusun elemen secara berurutan"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Penggunaan tabel untuk layout menambahkan banyak tag HTML yang tidak diperlukan, sehingga memperbesar ukuran file.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Tabel mendukung urutan dan kompatibilitas browser.</p>"
+  },
+  {
+title: "CSS Layout dan Tabel Layout",
+    question: "Apa keuntungan menggunakan z-index dalam layout CSS<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Membuat elemen lebih besar",
+      b: "Mengatur warna elemen",
+      c: "Mengontrol urutan tumpukan elemen pada halaman"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Properti z-index menentukan lapisan elemen mana yang muncul diatas elemen lain dalam halaman</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>z-index tidak mengatur warna atau ukuran elemen</p>"
+  },
+  {
+title: "CSS Layout dan Tabel Layout",
+    question: "Apa yang dimaksud dengan properti float di CSS<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Menempatkan elemen di kiri atau kanan dalam sebuah container",
+      b: "Membuat elemen tetap berada ditengah",
+      c: "Menyusun elemen agar mengapung di atas halaman"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Properti float digunakan untuk menyusun elemen disisi kiri atau kanan container dan memungkinkan teks mengalir disekitarnya</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>float tidak mengatur posisi vertikal atau sentralisasi elemen</p>"
+  },
+  {
+    title: "CSS Layout dan Tabel Layout",
+    question: "Apa kelebihan utama penggunaan tabel dalam layout web<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Membuat halaman lebih responsif",
+      b: "Lebih sederhana untuk membuat layout dengan struktur grid",
+      c: "Mengurangi jumlah tag HTML"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Tabel mempermudah pembuatan struktur grid sederhana karena secara alami mendukung baris dan kolom</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Tabel menambah tag HTML dan kurang fleksibel untuk desain responsif</p>"
   }
-]
+];
