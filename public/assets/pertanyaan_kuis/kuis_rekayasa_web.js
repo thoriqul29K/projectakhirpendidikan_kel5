@@ -161,5 +161,293 @@ const myQuestions = [
     correctAnswer: "b",
     correctAnswerText: "Selamat jawaban kamu benar!.<p>Tanpa perencanaan bisnis yang matang, situs e-commerce tidak dapat berfungsi secara efisien.</p>",
     falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan a dan c hanya berkontribusi sebagian kecil terhadap kegagalan.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Apa yang dimaksud dengan whitespace dalam desain web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Area kosong dalam layout yang tidak memiliki elemen desain",
+      b: "Bagian halaman yang penuh dengan konten teks",
+      c: "Area yang digunakan untuk menampilkan warna latar belakang saja"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Whitespace adalah ruang kosong yang membantu meningkatkan fokus pengguna pada elemen penting dalam desain.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Jika memilih b atau c, pahami bahwa whitespace bukan sekadar latar atau elemen teks, tetapi ruang yang memberikan &quot;istirahat visual&quot; dalam tata letak.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Apa manfaat utama penggunaan whitespace?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Mempercepat pengunduhan halaman",
+      b: "Membuat halaman lebih mudah dibaca dan nyaman dilihat",
+      c: "Meningkatkan ukuran file desain"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Whitespace membantu pengguna fokus pada elemen penting, meningkatkan kenyamanan membaca.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Jika memilih a atau c, pahami bahwa whitespace tidak memengaruhi kecepatan atau ukuran file, melainkan tata letak visual.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Apa peran slicing dalam desain web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Menentukan warna gambar pada web",
+      b: "Membuat efek animasi pada gambar",
+      c: "Memecah gambar besar menjadi bagian kecil untuk meningkatkan kecepatan loading"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Slicing memecah gambar besar menjadi bagian lebih kecil agar lebih cepat dimuat oleh browser.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Slicing bukan tentang warna atau animasi, tetapi efisiensi loading.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa tujuan dari sitemap dalam situs web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Mengurangi ukuran file HTML",
+      b: "Menampilkan desain visual situs",
+      c: "Membantu pengunjung memahami struktur dan navigasi situs"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Sitemap adalah petunjuk tentang semua halaman situs untuk mempermudah pengunjung memahami struktur situs.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Ingat bahwa sitemap tidak menggambarkan desain visual atau mengurangi ukuran file.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa langkah pertama dalam membuat desain home page?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Merancang sketsa kertas",
+      b: "Memilih warna latar belakang",
+      c: "Langsung mendesain di HTML editor"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Sketsa kertas membantu merancang tata letak dasar sebelum masuk ke proses digital.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pahami bahwa sketsa adalah langkah awal untuk mendapatkan gambaran keseluruhan.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Apa kelebihan menggunakan sketsa digital dibandingkan sketsa kertas?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Tidak membutuhkan aplikasi desain",
+      b: "Prosesnya lebih cepat dan detail",
+      c: "Lebih hemat biaya dibandngkan kertas"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Sketsa digital memungkinkan perancangan lebih detail dengan aplikasi desain seperti Photoshop.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Sketsa digital justru membutuhkan aplikasi dan tidk terikat langsung dengan biaya kertas.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Apa yang dimaksud dengan tipografi di web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Pemilihan dan penyajian jenis huruf di halaman web",
+      b: "Teknik membuat teks menjadi gambar.",
+      c: "Jenis tulisan yang digunakan dalam dokumen cetak"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Tipografi di web berkaitan dengan jenis huruf dan cara penyajiannya agar nyaman dibaca.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Tipografi di web berfokus pada teks digital, bukan gambar atau dokumen cetak.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa elemen yang perlu diprioritaskan dalam desain home page?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Animasi berlebihan",
+      b: "Informasi yang paling relevan dan navigasi utama",
+      c: "Iklan pop-up yang mencolok"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Home page harus menampilkan informasi utama dan navigasi untuk mempermudah pengguna.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Hindari elemen yang mengganggu pengalaman pengguna.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Mengapa sitemap penting untuk SEO?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Membantu mesin pencari memahami struktur situs",
+      b: "Mempercepat desain web",
+      c: "Menambahkan elemen visual pada halaman web"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Sitemap memudahkan mesin pencari mengindeks halaman situs, meningkatkan visibilitas di hasil pencarian.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Sitemap bukan elemen visual atau alat desain langsung.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa yang dimaksud dengan tipografi di web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Pemilihan dan penyajian jenis huruf di halaman web",
+      b: "Teknik membuat teks menjadi gambar.",
+      c: "Jenis tulisan yang digunakan dalam dokumen cetak"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Tipografi di web berkaitan dengan jenis huruf dan cara penyajiannya agar nyaman dibaca.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Tipografi di web berfokus pada teks digital, bukan gambar atau dokumen cetak.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa kelebihan desain web dengan slicing?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Memungkinkan pengunjung untuk mengedit gambar",
+      b: "Membuat desain lebih artistik",
+      c: "Meningkatkan kecepatan loading halaman"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Slicing membantu mengurangi ukuran file, sehingga halaman dapat dimuat lebih cepat.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Slicing adalah tentang efisiensi, bukan estetika atau pengeditan.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa yang harus diperhatikan saat memilih tipografi untuk web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Menggunakan font yang sangat kecil agar lebih hemat ruang",
+      b: "Memilih font unik yang jarang ditemukan",
+      c: "Memastikan font tersedia di semua perangkat pengguna"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Pastikan font kompatibel dengan perangkat pengguna untuk menjaga konsistensi tampilan.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan a atau b dapat menyebabkan masalah kompatibilitas dan keterbacaan.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Mengapa slicing penting untuk gambar berukuran besar<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Membuat gambar lebih kecil dalam dimensi",
+      b: "Membantu gambar agar terlihat jelas",
+      c: "Mengurangi waktu loading gambar di browser"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Slicing mempercepat proses loading gambar besar dengan memecahnya menjadi bagian kecil.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Slicing tidak mengubah dimensi atau kejernihan gambar.</p>"
+  },
+  {
+    title: "Desain Home Page dan Sitemap",
+    question: "Mengapa warna penting dalam desain home page?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Untuk menciptakan suasana tertentu sesuai tujuan situs",
+      b: "Untuk mengurangi jumlah konten teks",
+      c: "Untuk membuat halaman terlihat cerah"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Warna membantu menciptakan suasana yang mendukung tujuan dan audiens situs.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan lain tidak mencerminkan peran strategis warna.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa keuntungan mendesain sitemap secara visual?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Mengurangi kebutuhan desain home page",
+      b: "Memudahkan pengunjung memahami hubungan antar halaman",
+      c: "Menghemat waktu loading halaman"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Sitemap visual membantu pengunjung memahami struktur situs secara intuitif.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Sitemap adalah alat navigasi, bukan untuk efisiensi loading atau pengurangan desain.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa tujuan utama sketsa perancangan situs?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Memastikan desain terlihat menarik",
+      b: "Merencanakan tata letak dan struktur sebelum implementasi",
+      c: "Menentukan warna halaman"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Sketsa adalah alat perencanaan untuk mengatur tata letak sebelum implementasi digital.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan yang kamu pilih adalah bagian dari tahap desain, tetapi bukan tujuan utama sketsa.</p>"
+  },
+  {
+    title: "HTML dan JavaScript",
+    question: "Apa fungsi utama HTML dalam pembuatan web?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Menentukan struktur dan konten halaman web",
+      b: "Mengatur tampilan halaman web",
+      c: "Membuat halaman web interaktif"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>HTML digunakan untuk menentukan struktur dan konten seperti teks, gambar, dan link.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Interaktifitas dan tampilan diatur oleh JavaScript dan CSS bukan HTML.</p>"
+  },
+  {
+title: "Desain Home Page dan Sitemap",
+    question: "Apa perbedaan utama antara JavaScript dan HTML<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "HTML hanya bekerja di server, sedangkan JavaScript di browser",
+      b: "HTML adalah bahasa markup, JavaScript adalah bahasa pemrograman",
+      c: "HTML digunakan untuk styling, JavaScript untuk menambahkan konten"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>HTML adalah bahasa markup untuk struktur halaman, sedangkan JavaScript adalah bahasa pemrograman untuk menambah interaktivitas.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Styling dilakukan oleh CSS dan HTML bekerja di browser seperti JavaScript.</p>"
+  },
+  {
+    title: "HTML dan JavaScript",
+    question: "Apa tujuan penggunaan atribut bgColor di HTML?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Menentukan warna teks",
+      b: "Membuat teks lebih besar",
+      c: "Mengubah warna latar belakang halaman"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Atribut bgColor digunakan untuk menentukan warna latar belakang halaman atau elemen tertentu.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Warna teks dan ukuran font diatur dengan atribut lain, bukan bgColor.</p>"
+  },
+  {
+title: "HTML dan JavaScript",
+    question: "Apa peran tag <script> dalam HTML?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Menentukan format teks pada halaman web",
+      b: "Mengatur layout halaman web",
+      c: "Menyisipkan kode JavaScript ke dalam halaman web"
+    },
+    correctAnswer: "c",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>Tag <script> digunakan untuk menyisipkan atau merujuk kode JavaScript dalam sebuah dokumen HTML.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pilihan a atau b adalah fungsi dari HTML dan CSS, bukan tag <script>.</p>"
+  },
+  {
+title: "HTML dan JavaScript",
+    question: `Apa keluaran dari kode berikut?
+let x = 5 + &quot;5&quot;;
+console.log(x);<p>`,
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "10",
+      b: "55",
+      c: "Error"
+    },
+    correctAnswer: "b",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>SKetika angka dijumlahkan dengan string, JavaScript mengonversi angka menjadi string, sehingga hasilnya adalah &quot;55&quot;</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Pahami bahwa ini adalah proses concatenation, bukan operasi matematika.</p>"
+  },
+  {
+    title: "HTML dan JavaScript",
+    question: "Apa arti dari document.bgColor di JavaScript?<p>",
+    background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+    answers: {
+      a: "Mengatur warna latar belakang halaman web",
+      b: "Menentukan warna teks",
+      c: "Mengatur margin halaman web"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "Selamat jawaban kamu benar!.<p>document.bgColor digunakan untuk mengatur warna latar belakang halaman web melalui JavaScript.</p>",
+    falseAnswerText: "Sayang sekali jawaban kamu salah.<p>Properti ini khusus untuk warna latar belakang, bukan teks atau margin.</p>"
   }
-];
+]

@@ -14,10 +14,10 @@
             <div class="logo"><a href="">MI- GO!</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="<?= base_url("/") ?>">Home</a></li>
+                    <li><a href="<?= base_url("/") ?>">Beranda</a></li>
                     <li><a href="<?= base_url("/profil") ?>">Profil</a></li>
                     <li><a href="<?= base_url('/umpan_balik') ?>">Umpan Balik</a></li>
-                    <li><a href="#profildev">Biodata</a></li>
+                    <li><a href="#profildev">Pengembang</a></li>
                     <li><a href="<?= base_url('/materi') ?>">Materi</a></li>
                     <li><a href="<?= base_url('/kuis') ?>" class="tbl-biru">Kuis</a></li>
                 </ul>
@@ -71,7 +71,7 @@
 
         <style>
             footer {
-                background-color: #384b70;
+                background-color: #2a2828;
                 padding: 20px 0;
                 text-align: center;
                 border-top: 1px solid #e7e7e7;

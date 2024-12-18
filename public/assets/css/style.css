@@ -165,11 +165,12 @@ a.tbl-pink:hover {
 }
 
 #home {
-justify-content: center;
+    display: flex; /* Pertahankan flex untuk pengaturan konten */
+    justify-content: center; /* Agar konten tetap rata tengah */
+    align-items: center; /* Vertikal rata tengah */
 }
 
 #home .wrapper {
-    width: 100%; /* Agar elemen dalam section #home mengambil seluruh lebar */
     padding: 0;
     margin: 0;
 }
@@ -206,6 +207,8 @@ justify-content: center;
     width: 150px;  /* Atur lebar yang diinginkan */
     height: 300px; /* Atur tinggi yang diinginkan */
     border-radius: 10px; /* Sudut bulatkan gambar */
+    display: block;
+    margin: auto;
 }
 
 .kartu-Materi p {
@@ -268,7 +271,7 @@ justify-content: center;
 }
 .kuis-card:hover{
 transform: scale(1.05);
-background-color: #384b70;
+background-color: #ffd147;
     }
 
 .kuis-card img {
@@ -278,7 +281,7 @@ background-color: #384b70;
 }
 
 .kuis-card p {
-    color: plum;
+    color: #2a2828;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -317,7 +320,7 @@ background-color: #384b70;
 }
 .materi-card:hover {
     transform: scale(1.05);
-    background-color: #384b70;
+    background-color: #ffd147;
 }
 
 .materi-card img {
@@ -327,7 +330,7 @@ background-color: #384b70;
 }
 
 .materi-card p {
-    color: plum;
+    color: #2a2828;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;

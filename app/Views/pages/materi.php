@@ -81,9 +81,9 @@
                         </a>
                     <?php elseif ($semester == 8): ?>
                         <!-- Card List Semester 8 -->
-                        <a class="materi-card" href="<?= base_url('assets/materi/modul_SIA.pdf') ?>">
-                            <img src="<?= base_url('assets/images/SIA.jpg') ?>" alt="Modul Materi Tata Kelola">
-                            <p>Tata Kelola</p>
+                        <a class="materi-card" href="<?= base_url('assets/materi/modul_TKU.pdf') ?>">
+                            <img src="<?= base_url('assets/images/TKU.jpg') ?>" alt="Modul Materi Tata Kelola Usaha">
+                            <p>Tata Kelola Usaha</p>
                         </a>
                     <?php else: ?>
                         <p>Tidak ada modul untuk semester <?= $semester ?>.</p>
@@ -96,7 +96,7 @@
 
 <style>
     .accordion {
-        background-color: #384b70;
+        background-color: #2a2828;
         color: white;
         cursor: pointer;
         padding: 15px;
@@ -111,7 +111,7 @@
     }
 
     .accordion:hover {
-        background-color: #2c3e50;
+        background-color: #ffd147;
     }
 
     .panel {
