@@ -33,4 +33,8 @@ class Kuis extends BaseController
     {
         return view('pages/kuis/sistem_operasi/kuis_SO');
     }
+    public function kuis_tata_kelola_usaha()
+    {
+        return view('pages/kuis/tata_kelola_usaha/kuis_TKU');
+    }
 }

@@ -18,4 +18,5 @@ $routes->get('/kuis/pengolahan_gambar_komputer', 'Kuis::kuis_pengolahan_gambar_k
 $routes->get('/kuis/jaringan_komputer', 'Kuis::kuis_jaringan_komputer');
 $routes->get('/kuis/struktur_data', 'Kuis::kuis_struktur_data');
 $routes->get('/kuis/sistem_operasi', 'Kuis::kuis_sistem_operasi');
+$routes->get('/kuis/tata_kelola_usaha', 'Kuis::kuis_tata_kelola_usaha');
 $routes->post('umpan_balik/submit', 'Umpanbalik::submit');

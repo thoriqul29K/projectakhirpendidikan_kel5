@@ -76,8 +76,8 @@
                         </a>
                     <?php elseif ($semester == 8): ?>
                         <a href="<?= base_url('/kuis/tata_kelola_usaha') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/TKU.jpg') ?>" alt="Kuis Tata Kelola Usaha">
-                            <p>Tata Kelola Usaha</p>
+                            <img src="<?= base_url('assets/images/TKU.jpg') ?>" alt="Kuis Tata Kelola Perusahaan">
+                            <p>Tata Kelola Perusahaan</p>
                         </a>
                     <?php else: ?>
                         <p>Tidak ada kuis untuk semester <?= $semester ?>.</p>

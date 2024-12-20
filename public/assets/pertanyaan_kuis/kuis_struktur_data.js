@@ -310,5 +310,18 @@ const myQuestions = [
         correctAnswer: "b",
         correctAnswerText: "Benar!<p>Binary search lebih cepat dibandingkan linear search pada dataset besar.</p>",
         falseAnswerText: "Salah!<p>Keunggulan binary search adalah kecepatannya pada dataset besar.</p>"
+    },
+    {
+        title: "Graf Berbobot",
+        question: "Apa yang dimaksud dengan graf berbobot?",
+        background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
+        answers: {
+            a: "Graf yang memiliki jumlah simpul sama dengan jumlah sisi",
+            b: "Graf yang setiap sisinya memiliki nilai atau bobot tertentu",
+            c: "Graf yang tidak memiliki simpul atau sisi"
+        },
+        correctAnswer: "b",
+        correctAnswerText: "Benar!<p>Graf berbobot adalah graf di mana setiap sisinya memiliki nilai atau bobot tertentu.</p>",
+        falseAnswerText: "Salah!<p>Graf berbobot memiliki nilai atau bobot tertentu pada setiap sisinya.</p>"
     }
 ];

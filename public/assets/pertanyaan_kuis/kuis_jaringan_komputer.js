@@ -310,5 +310,18 @@ const myQuestions = [
         correctAnswer: "a",
         correctAnswerText: "Benar!<p>Software virtualisasi memungkinkan menjalankan beberapa sistem operasi pada satu perangkat.</p>",
         falseAnswerText: "Salah!<p>Kegunaan utama virtualisasi adalah menjalankan beberapa sistem operasi pada satu perangkat.</p>"
+    },
+    {
+        title: "Keamanan Jaringan",
+        question: "Apa langkah dasar untuk meningkatkan keamanan jaringan komputer?",
+        background: `<img src="${baseUrl}/assets/images/bg_slide25.jpg">`,
+        answers: {
+            a: "Menggunakan firewall dan sistem autentikasi",
+            b: "Meningkatkan kecepatan koneksi",
+            c: "Mengganti semua perangkat keras jaringan secara berkala"
+        },
+        correctAnswer: "a",
+        correctAnswerText: "Benar!<p>Langkah dasar keamanan jaringan adalah menggunakan firewall dan sistem autentikasi.</p>",
+        falseAnswerText: "Salah!<p>Keamanan jaringan ditingkatkan dengan firewall dan autentikasi.</p>"
     }
 ];

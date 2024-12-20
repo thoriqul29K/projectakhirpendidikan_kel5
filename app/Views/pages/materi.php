@@ -82,8 +82,8 @@
                     <?php elseif ($semester == 8): ?>
                         <!-- Card List Semester 8 -->
                         <a class="materi-card" href="<?= base_url('assets/materi/modul_TKU.pdf') ?>">
-                            <img src="<?= base_url('assets/images/TKU.jpg') ?>" alt="Modul Materi Tata Kelola Usaha">
-                            <p>Tata Kelola Usaha</p>
+                            <img src="<?= base_url('assets/images/TKU.jpg') ?>" alt="Modul Materi Tata Kelola Perusahaan">
+                            <p>Tata Kelola Perusahaan</p>
                         </a>
                     <?php else: ?>
                         <p>Tidak ada modul untuk semester <?= $semester ?>.</p>
