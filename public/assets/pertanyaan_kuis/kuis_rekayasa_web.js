@@ -424,8 +424,8 @@ title: "HTML dan JavaScript",
   },
   {
 title: "HTML dan JavaScript",
-    question: `Apa keluaran dari kode berikut?
-let x = 5 + &quot;5&quot;;
+    question: `Apa keluaran dari kode berikut? <br>
+let x = 5 + &quot;5&quot;; <br>
 console.log(x);<p>`,
     background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
     answers: {

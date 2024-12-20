@@ -36,7 +36,6 @@
                 <p>&copy; 2024 Website Kelompok 5. All Rights Reserved. <br> Gott mitt uns</p>
                 <ul class="footer-links">
                     <li><a href="<?= base_url('/') ?>">Kembali ke home</a></li>
-                    <li><a href="<?= base_url('/profil') ?>">Profil</a></li>
                 </ul>
                 <div class="profile">
                     <div class="profile-item">

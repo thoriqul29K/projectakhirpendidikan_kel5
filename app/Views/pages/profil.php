@@ -6,13 +6,13 @@
     <p>Selamat datang di website MI-GO! MI-GO adalah web edukasi yang bertujuan untuk memberikan akses mudah dan berkualitas kepada siswa dalam proses pembelajaran. Dengan berbagai materi yang disusun secara sistematis, kami berharap dapat mendukung perkembangan pendidikan digital di Indonesia.</p>
 
     <h3>Visi</h3>
-    <p>Menjadi platform pembelajaran digital terkemuka yang mendukung siswa dalam meraih prestasi dan mencapai potensi
+    <p>Menjadi platform pembelajaran digital terkemuka yang mendukung mahasiswa dalam meraih prestasi dan mencapai potensi
         terbaiknya.</p>
 
     <h3>Misi</h3>
     <ul>
         <li>Menyediakan materi pembelajaran yang berkualitas dan mudah diakses.</li>
-        <li>Mendukung guru dan siswa dalam proses belajar mengajar melalui teknologi digital.</li>
+        <li>Mendukung dosen dan mahasiswa dalam proses belajar mengajar melalui teknologi digital.</li>
         <li>Berinovasi untuk menghadirkan fitur-fitur yang relevan dengan kebutuhan pendidikan modern.</li>
     </ul>
 </div>
