@@ -314,7 +314,7 @@ const myQuestions = [
     {
         title: "Keamanan Jaringan",
         question: "Apa langkah dasar untuk meningkatkan keamanan jaringan komputer?",
-        background: `<img src="${baseUrl}/assets/images/bg_slide25.jpg">`,
+        background: `<img src="${baseUrl}/assets/images/bg_slide1.jpg">`,
         answers: {
             a: "Menggunakan firewall dan sistem autentikasi",
             b: "Meningkatkan kecepatan koneksi",
