@@ -45,9 +45,9 @@
                             <p>Pemrograman Berorientasi Objek</p>
                         </a>
                     <?php elseif ($semester == 4): ?>
-                        <a href="<?= base_url('/kuis/pemrograman_web') ?>" class="kuis-card">
-                            <img src="<?= base_url('assets/images/DW.png') ?>" alt="Kuis Pemrograman Web">
-                            <p>Pemrograman Web</p>
+                        <a href="<?= base_url('/kuis/desain_web') ?>" class="kuis-card">
+                            <img src="<?= base_url('assets/images/DW.png') ?>" alt="Kuis Desain Web">
+                            <p>Desain Web</p>
                         </a>
                         <a href="<?= base_url('/kuis/basis_data') ?>" class="kuis-card">
                             <img src="<?= base_url('assets/images/BD.jpg') ?>" alt="Kuis Basis Data ">
